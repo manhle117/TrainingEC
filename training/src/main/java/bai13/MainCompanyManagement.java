@@ -40,6 +40,7 @@ public class MainCompanyManagement {
 	                case 2:
 	                    // Chức năng cập nhật thông tin nhân viên
 	                    // Gọi phương thức cập nhật thông tin nhân viên từ hệ thống quản lý nhân viên
+						//sửa lại
 						String employeeIdEdit = InputUtils.inputString("Input employeeId want edit");
 						Employee isExisting = employeeManagement.findEmployeeByEmployeeId(employeeIdEdit);
 						if (isExisting!= null) {

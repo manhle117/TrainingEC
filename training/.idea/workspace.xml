@@ -4,7 +4,82 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c168487c-2bba-425b-9dfb-b86c4169634c" name="Changes" comment="" />
+    <list default="true" id="c168487c-2bba-425b-9dfb-b86c4169634c" name="Changes" comment="second commit">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai14Sql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/Dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/MainStudentManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/StudentManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/exception/InvalidDOBExceptionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/exception/InvalidFullNameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/exception/InvalidOrtherException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/exception/InvalidPhoneNumberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/model/GoodStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/model/NormalStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai15/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai15/model/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai15/model/Enrollment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai15/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai15/model/StudentTC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/training/common/ConnectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/bai13/EmployeeManagement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/bai13/Validator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/bai13/model/Certificate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/bai13/model/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/bai13/model/Experience.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/bai13/model/Fresher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/bai13/model/Intern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bai13/MainCompanyManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bai13/MainCompanyManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bai13/model/Experience.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bai13/model/Experience.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bai13/model/Fresher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bai13/model/Fresher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bai13/model/Intern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bai13/model/Intern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/training/demoSlide/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/ec/training/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/ec/training/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bai13/Certificate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bai13/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bai13/Experience.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bai13/Fresher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bai13/Intern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bai13/MainCompanyManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bai13/MainCompanyManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bai13/exception/BirthDayException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bai13/exception/BirthDayException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bai13/exception/EmailException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bai13/exception/EmailException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bai13/exception/FullNameException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bai13/exception/FullNameException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bai13/exception/PhoneException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bai13/exception/PhoneException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai10/MainBai10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai10/MainBai10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai10/Paragraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai10/Paragraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai5/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai5/Common.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai5/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai5/Hotel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai5/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai5/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai5/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai5/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai5/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai5/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai5/RoomDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai5/RoomDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai5/TypeRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai5/TypeRoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai6/LopHoc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai6/LopHoc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai6/MainBai6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai6/MainBai6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai6/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai6/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai7/CBGV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai7/CBGV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai7/MainBai7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai7/MainBai7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai7/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai7/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai7/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai7/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai7/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai7/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai8/LibCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai8/LibCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai8/MainBai8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai8/MainBai8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai8/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai8/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai9/Bill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai9/Bill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai9/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai9/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/bai9/MainBai9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai9/MainBai9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/common/InputUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/common/InputUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/common/ScannerSingletonPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/common/ScannerSingletonPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/training/demoSlide/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/demoSlide/Test.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,22 +92,150 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="0e525d41-2eef-4988-ba1e-265a0dd47b54" />
+        <option name="url" value="https://github.com/manhle117/TrainingEC.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../../../../Program Files/Java/jdk-17/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2VccuBqfyu4HzAx7tHQoxgWO52q" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Documents/TrainingEC/training&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/ADMIN/Documents/TrainingEC/New folder/TrainingEC/training",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="training.bai14" />
+      <recent name="training.bai14.exception" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainStudentManagement">
+    <configuration name="ConnectionUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="training.common.ConnectionUtils" />
+      <module name="training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="training.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainCompanyManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai13.MainCompanyManagement" />
+      <module name="training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainStudentManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="training.bai14.MainStudentManagement" />
+      <module name="training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="training.bai14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tesst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="training.bai5.tesst" />
+      <module name="training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="training.bai5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="training [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainStudentManagement" />
+        <item itemvalue="Application.tesst" />
+        <item itemvalue="Application.ConnectionUtils" />
+        <item itemvalue="Maven.training [clean]" />
+        <item itemvalue="Application.MainCompanyManagement" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,6 +246,21 @@
       <updated>1695139031796</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

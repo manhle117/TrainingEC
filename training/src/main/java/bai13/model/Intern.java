@@ -50,15 +50,22 @@ public class Intern extends Employee{
 	}
 
 
-
-
 	@Override
 	public String toString() {
-		return "Intern [majors=" + majors + ", semester=" + semester + ", universityName=" + universityName
-				+ ", employeeId=" + employeeId + ", fullName=" + fullName + ", birthDay=" + birthDay + ", phone="
-				+ phone + ", email=" + email + ", employeeType=" + employeeType + ", listCerti=" + listCerti + "]";
-	}
+		return "Intern{" +
+				", employeeId='" + employeeId + '\'' +
+				", fullName='" + fullName + '\'' +
+				", birthDay='" + birthDay + '\'' +
+				", phone='" + phone + '\'' +
+				", email='" + email + '\'' +
+				", employeeType=" + employeeType +
+				", listCerti=" + listCerti +
+				"majors='" + majors + '\'' +
+				", semester=" + semester +
+				", universityName='" + universityName + '\'' +
 
+				'}';
+	}
 
 	@Override
 	public void showInfor() {

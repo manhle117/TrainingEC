@@ -48,13 +48,20 @@ public class Fresher extends Employee {
 	}
 
 
-
 	@Override
 	public String toString() {
-		return "Fresher [graduationDate=" + graduationDate + ", graduationRank=" + graduationRank + ", university="
-				+ university + ", employeeId=" + employeeId + ", fullName=" + fullName + ", birthDay=" + birthDay
-				+ ", phone=" + phone + ", email=" + email + ", employeeType=" + employeeType + ", listCerti="
-				+ listCerti + "]";
+		return "Fresher{" +
+				", employeeId='" + employeeId + '\'' +
+				", fullName='" + fullName + '\'' +
+				", birthDay='" + birthDay + '\'' +
+				", phone='" + phone + '\'' +
+				", email='" + email + '\'' +
+				", employeeType=" + employeeType +
+				", listCerti=" + listCerti +
+				"graduationDate='" + graduationDate + '\'' +
+				", graduationRank='" + graduationRank + '\'' +
+				", university='" + university + '\'' +
+				'}';
 	}
 
 	@Override

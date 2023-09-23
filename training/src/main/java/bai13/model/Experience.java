@@ -38,17 +38,21 @@ public class Experience extends Employee {
 		this.proSkill = proSkill;
 	}
 
-	
-	
-
 
 	@Override
 	public String toString() {
-		return "Experience [expInYear=" + expInYear + ", proSkill=" + proSkill + ", employeeId=" + employeeId
-				+ ", fullName=" + fullName + ", birthDay=" + birthDay + ", phone=" + phone + ", email=" + email
-				+ ", employeeType=" + employeeType + ", listCerti=" + listCerti + "]";
+		return "Experience{" +
+				", employeeId='" + employeeId + '\'' +
+				", fullName='" + fullName + '\'' +
+				", birthDay='" + birthDay + '\'' +
+				", phone='" + phone + '\'' +
+				", email='" + email + '\'' +
+				", employeeType=" + employeeType +
+				", listCerti=" + listCerti +
+				"expInYear=" + expInYear +
+				", proSkill='" + proSkill + '\'' +
+				'}';
 	}
-
 
 	@Override
 	public void showInfor() {
