@@ -11,9 +11,6 @@ import java.util.List;
 public class StudentManagement {
     private StudentDao studentDao = new StudentDao();
 
-
-
-
     public List<Student> showInforAllStudent(){
          List<Student> listStudent ;
         listStudent = studentDao.getAllStudent();

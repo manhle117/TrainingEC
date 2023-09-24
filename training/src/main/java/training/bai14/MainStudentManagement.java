@@ -49,9 +49,7 @@ public class MainStudentManagement {
                 case 4:
                     System.out.println("Bye.");
                     System.exit(0);
-                case 5:
-                    StudentDao.updateTest();
-                    break;
+
                 default:
                     System.out.println("Invalid input, choose again!!.");
             }

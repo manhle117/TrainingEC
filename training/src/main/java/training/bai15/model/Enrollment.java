@@ -5,6 +5,9 @@ public class Enrollment {
     private String semesterName;
     private double averageScore;
 
+    public Enrollment() {
+    }
+
     public Enrollment(int studentId, String semesterName, double averageScore) {
         this.studentId = studentId;
         this.semesterName = semesterName;

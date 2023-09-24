@@ -3,14 +3,18 @@ package training.bai15.model;
 import java.sql.Date;
 
 public class Student {
+    private int id;
     private String studentCode;
     private String fullName;
     private Date doB;
-    private String yearOfAdmission;
-private double entranceScore;
-private int departmentId;
+    private int yearOfAdmission;
+    private double entranceScore;
+    private int departmentId;
 
-    public Student(String studentCode, String fullName, Date doB, String yearOfAdmission, double entranceScore, int departmentId) {
+    public Student() {
+    }
+
+    public Student( String studentCode, String fullName, Date doB, int yearOfAdmission, double entranceScore, int departmentId) {
         this.studentCode = studentCode;
         this.fullName = fullName;
         this.doB = doB;
@@ -18,6 +22,26 @@ private int departmentId;
         this.entranceScore = entranceScore;
         this.departmentId = departmentId;
     }
+
+    public Student(int id, String studentCode, String fullName, Date doB, int yearOfAdmission, double entranceScore, int departmentId) {
+        this.id = id;
+        this.studentCode = studentCode;
+        this.fullName = fullName;
+        this.doB = doB;
+        this.yearOfAdmission = yearOfAdmission;
+        this.entranceScore = entranceScore;
+        this.departmentId = departmentId;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+
 
     public String getStudentCode() {
         return studentCode;
@@ -43,11 +67,11 @@ private int departmentId;
         this.doB = doB;
     }
 
-    public String getYearOfAdmission() {
+    public int getYearOfAdmission() {
         return yearOfAdmission;
     }
 
-    public void setYearOfAdmission(String yearOfAdmission) {
+    public void setYearOfAdmission(int yearOfAdmission) {
         this.yearOfAdmission = yearOfAdmission;
     }
 
