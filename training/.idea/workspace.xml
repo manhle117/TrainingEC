@@ -4,81 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c168487c-2bba-425b-9dfb-b86c4169634c" name="Changes" comment="second commit">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai14Sql.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/Dao/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/MainStudentManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/StudentManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/exception/InvalidDOBExceptionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/exception/InvalidFullNameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/exception/InvalidOrtherException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/exception/InvalidPhoneNumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/model/GoodStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/model/NormalStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai14/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai15/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai15/model/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai15/model/Enrollment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai15/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/training/bai15/model/StudentTC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/training/common/ConnectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/bai13/EmployeeManagement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/bai13/Validator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/bai13/model/Certificate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/bai13/model/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/bai13/model/Experience.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/bai13/model/Fresher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/bai13/model/Intern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c168487c-2bba-425b-9dfb-b86c4169634c" name="Changes" comment="3rd commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bai13/MainCompanyManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bai13/MainCompanyManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bai13/model/Experience.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bai13/model/Experience.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bai13/model/Fresher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bai13/model/Fresher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bai13/model/Intern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bai13/model/Intern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/training/demoSlide/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/ec/training/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/ec/training/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bai13/Certificate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bai13/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bai13/Experience.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bai13/Fresher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bai13/Intern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bai13/MainCompanyManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bai13/MainCompanyManagement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bai13/exception/BirthDayException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bai13/exception/BirthDayException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bai13/exception/EmailException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bai13/exception/EmailException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bai13/exception/FullNameException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bai13/exception/FullNameException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bai13/exception/PhoneException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bai13/exception/PhoneException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai10/MainBai10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai10/MainBai10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai10/Paragraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai10/Paragraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai5/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai5/Common.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai5/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai5/Hotel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai5/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai5/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai5/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai5/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai5/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai5/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai5/RoomDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai5/RoomDetail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai5/TypeRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai5/TypeRoom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai6/LopHoc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai6/LopHoc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai6/MainBai6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai6/MainBai6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai6/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai6/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai7/CBGV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai7/CBGV.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai7/MainBai7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai7/MainBai7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai7/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai7/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai7/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai7/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai7/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai7/Teacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai8/LibCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai8/LibCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai8/MainBai8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai8/MainBai8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai8/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai8/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai9/Bill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai9/Bill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai9/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai9/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/bai9/MainBai9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/bai9/MainBai9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/common/InputUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/common/InputUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/common/ScannerSingletonPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/common/ScannerSingletonPattern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/training/demoSlide/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/training/demoSlide/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bai13/EmployeeManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/bai13/EmployeeManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bai13/MainCompanyManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/bai13/MainCompanyManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bai13/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/bai13/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bai13/exception/BirthDayException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/bai13/exception/BirthDayException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bai13/exception/EmailException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/bai13/exception/EmailException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bai13/exception/FullNameException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/bai13/exception/FullNameException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bai13/exception/PhoneException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/bai13/exception/PhoneException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bai13/model/Certificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/bai13/model/Certificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bai13/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/bai13/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bai13/model/Experience.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/bai13/model/Experience.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bai13/model/Fresher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/bai13/model/Fresher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bai13/model/Intern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/bai13/model/Intern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/training/bai15/MainSchoolManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/bai15/MainSchoolManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/training/bai15/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/bai15/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/training/bai15/dao/SchoolDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/bai15/dao/SchoolDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/training/bai15/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/bai15/model/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -95,10 +40,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -131,7 +76,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ADMIN/Documents/TrainingEC/New folder/TrainingEC/training",
+    "last.edited.regexp": "",
+    "last_opened_file_path": "C:/Users/ADMIN/Documents/TrainingEC/New folder/TrainingEC/training/src/main/java/training/bai12",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -139,18 +85,23 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Documents\TrainingEC\New folder\TrainingEC\training\src\main\java\training\bai12" />
+      <recent name="C:\Users\ADMIN\Documents\TrainingEC\New folder\TrainingEC\training\src\main\java\training\bai4" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="training.Exam.exception" />
       <recent name="training.bai14" />
       <recent name="training.bai14.exception" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainStudentManagement">
-    <configuration name="ConnectionUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="training.common.ConnectionUtils" />
+  <component name="RunManager" selected="Application.MainBai6">
+    <configuration name="MainBai6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="training.bai6.MainBai6" />
       <module name="training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="training.common.*" />
+          <option name="PATTERN" value="training.bai6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +109,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainCompanyManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai13.MainCompanyManagement" />
+    <configuration name="MainExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="training.Exam.MainExam" />
       <module name="training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai13.*" />
+          <option name="PATTERN" value="training.Exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainSchoolManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="training.bai15.MainSchoolManagement" />
+      <module name="training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="training.bai15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,42 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="training [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="cmdOptions" />
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="clean" />
-              </list>
-            </option>
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="projectsCmdOptionValues">
-              <list />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainBai6" />
+        <item itemvalue="Application.MainExam" />
+        <item itemvalue="Application.MainSchoolManagement" />
         <item itemvalue="Application.MainStudentManagement" />
         <item itemvalue="Application.tesst" />
-        <item itemvalue="Application.ConnectionUtils" />
-        <item itemvalue="Maven.training [clean]" />
-        <item itemvalue="Application.MainCompanyManagement" />
       </list>
     </recent_temporary>
   </component>
@@ -245,12 +180,30 @@
       <option name="presentableId" value="Default" />
       <updated>1695139031796</updated>
     </task>
+    <task id="LOCAL-00001" summary="second commit">
+      <option name="closed" value="true" />
+      <created>1695454338630</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695454338630</updated>
+    </task>
+    <task id="LOCAL-00002" summary="3rd commit">
+      <option name="closed" value="true" />
+      <created>1695454648876</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695454648876</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="3rd commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="3rd commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -259,6 +212,16 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="4" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/training/bai15/dao/SchoolDao.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/training/bai4/Town.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

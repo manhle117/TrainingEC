@@ -10,6 +10,8 @@ import java.sql.Date;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.temporal.TemporalField;
 
 public class Validator {
     public static void fullName(String name) throws InvalidFullNameException {
@@ -36,7 +38,7 @@ public class Validator {
         }
     }
     public static void stringNormal(String inputString) throws InvalidOrtherException{
-        String regex = "^[A-Za-z0-9]+$";
+        String regex = "^[A-Za-z0-9 ]+$";
         if(!inputString.matches(regex)){
             throw new InvalidOrtherException("Invalid Input String, please try again");
         }
@@ -70,8 +72,10 @@ public class Validator {
         }
     }
     public static void checkYearOfAdmission(int inputYear) throws  InvalidOrtherException{
-        java.util.Date date = new java.util.Date();
+        LocalDate date = LocalDate.now();
+
         int currentYear = date.getYear();
+        System.out.println("currentYear"+ currentYear);
        if(inputYear > currentYear){
            throw new InvalidOrtherException("Invalid Input Year, Not greater than Current year!!");
        }

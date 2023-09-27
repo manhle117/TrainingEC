@@ -14,6 +14,7 @@ public class Student {
     public Student() {
     }
 
+
     public Student( String studentCode, String fullName, Date doB, int yearOfAdmission, double entranceScore, int departmentId) {
         this.studentCode = studentCode;
         this.fullName = fullName;
@@ -41,7 +42,12 @@ public class Student {
         this.id = id;
     }
 
-
+    public Student(String studentCode, String fullName, double entranceScore, int departmentId) {
+        this.studentCode = studentCode;
+        this.fullName = fullName;
+        this.entranceScore = entranceScore;
+        this.departmentId = departmentId;
+    }
 
     public String getStudentCode() {
         return studentCode;
